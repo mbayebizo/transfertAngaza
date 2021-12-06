@@ -1,0 +1,157 @@
+package net.msapi.transfertangaza.models.cpt;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+import java.sql.Date;
+import java.sql.Timestamp;
+
+@Data
+@Entity
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "cpt_exercices_comptable")
+public class CptExercicesComptable{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long execptId;
+    private Timestamp execptDateCreat;
+    private Timestamp execptDateModif;
+    private Timestamp execptDateCloture;
+    private Long execptUserCreat;
+    private Long execptUserCloture;
+    private Long execptUserModif;
+    private Date execptDateDebut;
+    private Date execptDateFin;
+    private Integer execptEtat;
+    private Integer execptEtatAnterieur;
+    private Date execptEtDateDebut;
+    private Date execptEtDateFin;
+    private Date execptTbDateDebut;
+    private Date execptTbDateFin;
+    private Integer execptResltat;
+    private Boolean execptJrxSit;
+    private Boolean execptJrxRsv;
+    private Date execptDateCreationEntreprise;
+    private String execptAnneeActivitePays;
+    private Integer execptNbEtablissementPays;
+    private Integer execptNbEtablissementHors;
+    private Boolean execptCtrlPublique;
+    private Boolean execptCtrlPriveLoc;
+    private Boolean execptCtrlPriveEtr;
+    private Date execptDateClotPrec;
+    private Integer execptDureePrec;
+    private Date execptDateArretCompte;
+    private String execptCodeActivite;
+    private String execptLibActivite;
+    private Integer execptCapProduction;
+    private String execptAgrement;
+    private Date execptDateAgrement;
+    private String execptDureeAgrement;
+    private String execptConvention;
+    private Integer execptTypeEntreprise;
+    private Integer execptRegime;
+    private String execptCentreImpot;
+    private String execptInscription;
+    private Boolean execptAnalytique;
+    private String execptNomComptable;
+    private String execptAdresseComptable;
+    private String execptVilleComptable;
+    private Boolean execptSalarieComptable;
+    private String execptTelephoneComptable;
+    private String execptNomContact;
+    private String execptAdresseContact;
+    private String execptVilleContact;
+    private String execptTelephoneContact;
+    private String execptQuaContact;
+    private String execptNomCabinet;
+    private String execptAdresseCabinet;
+    private String execptVilleCabinet;
+    private String execptTelephoneCabinet;
+    private String execptNomCommissaire;
+    private String execptAdresseCommissaire;
+    private String execptVilleCommissaire;
+    private String execptTelephoneCommissaire;
+    private String execptNomSignataire;
+    private String execptQuaSignataire;
+    private Boolean execptEfcna;
+    private Boolean execptEfcr;
+    private Boolean execptEfcar;
+    private Boolean execptEfasr;
+    private Boolean execptEfana;
+    private Boolean execptEfanap;
+    private Boolean execptEfaap;
+    private Integer execptN1;
+    private Integer execptN2;
+    private Integer execptN3A;
+    private Integer execptN3B;
+    private Integer execptN3C;
+    private Integer execptN3D;
+    private Integer execptN4;
+    private Integer execptN5;
+    private Integer execptN6;
+    private Integer execptN7;
+    private Integer execptN8;
+    private Integer execptN8A;
+    private Integer execptN9;
+    private Integer execptN10;
+    private Integer execptN11;
+    private Integer execptN12;
+    private Integer execptN13;
+    private Integer execptN14;
+    private Integer execptN15A;
+    private Integer execptN15B;
+    private Integer execptN16A;
+    private Integer execptN16B;
+    private Integer execptN16Bb;
+    private Integer execptN16C;
+    private Integer execptN17;
+    private Integer execptN18;
+    private Integer execptN19;
+    private Integer execptN20;
+    private Integer execptN21;
+    private Integer execptN22;
+    private Integer execptN23;
+    private Integer execptN24;
+    private Integer execptN25;
+    private Integer execptN26;
+    private Integer execptN27A;
+    private Integer execptN27B;
+    private Integer execptN28;
+    private Integer execptN29;
+    private Integer execptN30;
+    private Integer execptN31;
+    private Integer execptN32;
+    private Integer execptN33;
+    private Integer execptN34;
+    private Integer execptN35;
+    private Integer execptN36;
+    private Integer execptN37;
+    private Integer execptN3E;
+    private Integer execptN38;
+    private Integer execptN39;
+    private Integer execptN40;
+    private Integer execptN41;
+    private Integer execptN42;
+    private Integer execptN43;
+    private Integer execptN44;
+    private Integer execptN45;
+    private Integer execptN46;
+    private Integer execptN47;
+    private Integer execptN48;
+    private Integer execptN49;
+    private Integer execptN50;
+    private Integer execptN51;
+    private Boolean execptSaisie1;
+    private Boolean execptSaisie2;
+    private Boolean execptSaisie3;
+    private Boolean execptSaisie4;
+    private Boolean execptSaisie5;
+    private Integer execptSaisie6;
+    private Integer execptSaisie7;
+
+}
